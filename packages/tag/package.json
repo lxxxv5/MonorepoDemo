@@ -1,0 +1,10 @@
+{
+  "name": "@lxxxv5-lerna-demo/tag",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}
