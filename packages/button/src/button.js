@@ -3,9 +3,9 @@ import utils from '@lxxxv5-lerna-demo/utils'
 
 const { isArray } = utils
 
-const Button = (text, disabled, children) => {
+const Button = (text, disabled, children, ...restProps) => {
   return (
-    <button disabled={disabled}>
+    <button disabled={disabled} {...restProps}>
       {isArray(text) ? text.join(',') : children}
     </button>
   )
