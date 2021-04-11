@@ -1,0 +1,7 @@
+{
+  "name": "@lxxxv5-lerna-demo/hooks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module"
+}
