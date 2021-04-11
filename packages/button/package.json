@@ -3,5 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@lxxxv5-lerna-demo/utils": "^1.0.0",
+    "react": "^17.0.2"
+  }
 }
